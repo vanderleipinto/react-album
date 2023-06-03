@@ -1,0 +1,20 @@
+Criar um state com array de albums
+Faço uma função de requisição e coloco a resposta em um json
+Carrego o json dentro dos posts com o setPosts do usestate
+
+useEffect (função que roda no carregamento da página) roda a função de requisição e popula o arrayde albums
+
+Uma vez que temos os albums carregados fazemos um map para colocar as informações do album na página principal.
+
+Criado o arquivo MainRouters que possui as rotas para os albuns e fotos. As rotas estão sendo criadas de acordo com a demanda.
+
+Dentro desse map fazemos o link para acessar o próprio album (criada a rota dinâmica no mainroutes)
+
+Criar a page Album que vai receber como parâmetro o id do album. Com esse id vamos povoar mais um array com as fotos.
+Cada foto vai ter um link que vai para página PhotoPage com o id da foto
+
+Criar a página PhotoPage que recebe o id da foto e mostra a foto
+
+Após toda a criação do sistema, foi feita a fatoração das requisições, que foram todas enviadas para um arquivo api.ts, importadas nas suas devidas páginas que chamam a função que lhe convémm.
+
+(Não feito) Estilização do sistema.
